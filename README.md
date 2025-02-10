@@ -39,3 +39,12 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/github-user-finder.git
    cd github-user-finder
+
+
+github-user-finder/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── package.json
+└── node_modules/
