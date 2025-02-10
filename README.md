@@ -15,7 +15,8 @@ GitHub User Finder is a web application that allows users to search for GitHub p
 
 ## Demo
 
-![GitHub User Finder Screenshot](screenshot.png)
+![Demo Screenshot 1](demo/demo_1.png)
+![Demo Screenshot 2](demo/demo_2.png)
 
 ## Built With
 
@@ -30,16 +31,21 @@ GitHub User Finder is a web application that allows users to search for GitHub p
 To run this project locally, follow these steps:
 
 ### Prerequisites
+
 Make sure you have the following installed:
+
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
 ### Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/github-user-finder.git
    cd github-user-finder
 
+
+   ```
 
 github-user-finder/
 ├── index.html
