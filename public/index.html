@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GitHub User Finder</title>
+</head>
+<body>
+    <header>
+        <h1>GitHub Profile Explorer</h1>
+        <p>Search for GitHub profiles and view their details.</p>
+    </header>
+    <main>
+        <section class="search-section">
+            <form class="inputForm" id="userInput" aria-label="GitHub User Search Form">
+                <label for="inputBox">Search for a GitHub User:</label>
+                <input type="text" 
+                       id="inputBox" 
+                       name="githubUser" 
+                       autocomplete="off" 
+                       placeholder="Enter GitHub username" 
+                       aria-required="true" />
+                <button type="submit" id="searchButton">Search</button>
+            </form>
+        </section>
+        <section id="main" class="results-section">
+            <p>Search results will appear here...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by the <a href="https://api.github.com" target="_blank" rel="noopener">GitHub API</a>.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
